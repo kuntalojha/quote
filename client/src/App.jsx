@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
-import { Button } from '@/components/ui/button';
+import Layout from './layout/Layout';
 function App() {
   return (
     <div>
-      <h1 className='text-3xl font-bold underline'>Hello world!</h1>
-      <Button>Click me</Button>
+      <Layout />
     </div>
   );
 }
